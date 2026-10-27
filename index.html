@@ -353,11 +353,9 @@
     letter-spacing: 0.05em;
     color: var(--fg);
   }
-  .credibility-block .companies span {
-    padding: 7px 13px;
-    border: 1px solid var(--glass-border);
-    border-radius: 999px;
-  }
+  .credibility-block .companies { align-items: center; gap: 18px 38px; }
+  .credibility-block .companies img { height: 34px; width: auto; opacity: 0.85; }
+  .credibility-block .companies img[alt="Intel"] { height: 48px; }  /* wide, flat wordmark: needs more height to read as large as the others */
 
   /* ---------- closing ---------- */
   .closing {
@@ -582,15 +580,15 @@
     <div class="proof-grid">
       <div class="glass proof-tile">
         <div class="proof-num">6 years</div>
-        <div class="proof-label">Founded in 2020</div>
+        <div class="proof-label">Over six years,</div>
       </div>
       <div class="glass proof-tile">
-        <div class="proof-num">$100M+</div>
-        <div class="proof-label">New revenue we've created</div>
+        <div class="proof-num">$250M+</div>
+        <div class="proof-label">we generated over $250M of revenue for our clients,</div>
       </div>
       <div class="glass proof-tile">
         <div class="proof-num">50% YoY</div>
-        <div class="proof-label">Growth delivered for clients</div>
+        <div class="proof-label">growing over 50% year on year.</div>
       </div>
     </div>
   </div>
@@ -601,7 +599,12 @@
     <span class="eyebrow">06 — Leadership</span>
     <p style="margin-top:22px;">Our team's backgrounds span enterprise-scale IT deployment and product engineering at Apple, Microsoft, HP, Intel, Amazon, and Google, plus serial entrepreneurship — multiple startups scaled past $100M in revenue, several acquired by leading software companies, one taken public.</p>
     <div class="companies">
-      <span>Apple</span><span>Microsoft</span><span>HP</span><span>Intel</span><span>Amazon</span><span>Google</span>
+      <img src="assets/logos/apple.svg" alt="Apple" />
+      <img src="assets/logos/microsoft.svg" alt="Microsoft" />
+      <img src="assets/logos/hp.svg" alt="HP" />
+      <img src="assets/logos/intel.svg" alt="Intel" />
+      <img src="assets/logos/amazon.svg" alt="Amazon" />
+      <img src="assets/logos/google.svg" alt="Google" />
     </div>
   </div>
 </section>
