@@ -327,3 +327,7 @@ form .btn[type=submit]{scroll-margin-bottom:120px}
 @font-face{font-family:"Axiforma";src:url(assets/axiforma-semibold.woff2) format("woff2");font-weight:600;font-style:normal;font-display:swap}
 .brand{font-family:Axiforma,Inter,-apple-system,sans-serif;font-weight:600;font-size:20px;letter-spacing:-.2px;gap:5px}
 .brand .mark{height:28px;width:auto;flex:none;display:block}
+
+.info .li-link{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:1px solid var(--line);border-radius:var(--r-small);color:var(--ink);text-decoration:none;margin-bottom:var(--s16)}
+.info .li-link:hover{border-color:var(--card-hover)}
+.info .city{display:block;width:100%;height:auto;border-radius:var(--r-small);border:1px solid var(--line)}
